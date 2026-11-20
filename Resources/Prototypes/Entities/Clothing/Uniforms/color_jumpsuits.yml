@@ -390,22 +390,3 @@
         color: "#cc295f"
   - type: Clothing
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/red.rsi
-
-
-# Rainbow Jumpsuit
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformColorRainbow
-  name: rainbow jumpsuit
-  description: A multi-colored jumpsuit!
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/rainbow.rsi
-  - type: Item
-    inhandVisuals:
-      left:
-      - state: inhand-left
-      right:
-      - state: inhand-right
-  - type: Clothing
-    sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/color/rainbow.rsi

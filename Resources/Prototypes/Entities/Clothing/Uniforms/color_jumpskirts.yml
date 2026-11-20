@@ -386,16 +386,3 @@
         color: "#cc295f"
   - type: Clothing
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/color/red.rsi
-
-
-# Rainbow Jumpskirt
-- type: entity
-  parent: ClothingUniformSkirtBase # Goob
-  id: ClothingUniformJumpskirtColorRainbow
-  name: rainbow jumpskirt
-  description: A multi-colored jumpskirt!
-  components:
-  - type: Sprite
-    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/color/rainbow.rsi
-  - type: Clothing
-    sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/color/rainbow.rsi

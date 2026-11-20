@@ -1061,3 +1061,88 @@ DVSmartFridgeMedical: SmartFridgeMedical
 
 # 2026-01-10 Goobstation Change Mapped Chem to Energy Chem by default
 ChemDispenser: EnergyChemDispenser
+
+# Retired themed items and vending machine
+BedsheetRainbow: null
+ClothingNeckAllyPin: null
+ClothingNeckAroacePin: null
+ClothingNeckAromanticPin: null
+ClothingNeckAsexualPin: null
+ClothingNeckBisexualPin: null
+ClothingNeckCloakAce: null
+ClothingNeckCloakAro: null
+ClothingNeckCloakAroace: null
+ClothingNeckCloakBi: null
+ClothingNeckCloakEnby: null
+ClothingNeckCloakGay: null
+ClothingNeckCloakIntersex: null
+ClothingNeckCloakLesbian: null
+ClothingNeckCloakPan: null
+ClothingNeckCloakTrans: null
+ClothingNeckGayPin: null
+ClothingNeckGenderfluidPin: null
+ClothingNeckGenderqueerPin: null
+ClothingNeckIntersexPin: null
+ClothingNeckLGBTPin: null
+ClothingNeckLesbianPin: null
+ClothingNeckNonBinaryPin: null
+ClothingNeckOmnisexualPin: null
+ClothingNeckPansexualPin: null
+ClothingNeckPluralPin: null
+ClothingNeckScarfStripedAce: null
+ClothingNeckScarfStripedAro: null
+ClothingNeckScarfStripedAroace: null
+ClothingNeckScarfStripedBiSexual: null
+ClothingNeckScarfStripedGay: null
+ClothingNeckScarfStripedInter: null
+ClothingNeckScarfStripedLesbian: null
+ClothingNeckScarfStripedLesbianLong: null
+ClothingNeckScarfStripedNonBinary: null
+ClothingNeckScarfStripedPan: null
+ClothingNeckScarfStripedRainbow: null
+ClothingNeckScarfStripedTrans: null
+ClothingNeckTransPin: null
+ClothingUniformColorRainbow: null
+ClothingUniformJumpskirtColorRainbow: null
+LGBTQFlag: null
+LGBTQHandyFlag: null
+PlushieRainbowLizard: null
+VendingMachinePride: null
+
+# Retired humanoid biofabrication cubes
+ChitinidCube: null
+FeroxiCube: null
+
+# Retired self-insert character plushies
+EvilPlushieBoggle: null
+EvilPlushieBrizby: null
+EvilPlushieDurk: null
+EvilPlushieFern: null
+EvilPlushieJvne: null
+EvilPlushieLeguia: null
+EvilPlushieLouie: null
+EvilPlushieMnwaar: null
+EvilPlushieNigel: null
+EvilPlushiePasha: null
+EvilPlushieTwofish: null
+EvilPlushieWachtel: null
+EvilPlushieXeve: null
+PlushieBaldzby: null
+PlushieBoggle: null
+PlushieBrizby: null
+PlushieDurk: null
+PlushieFern: null
+PlushieJvne: null
+PlushieLeguia: null
+PlushieLehmin: null
+PlushieLouie: null
+PlushieMnwaar: null
+PlushieNigel: null
+PlushiePasha: null
+PlushieSamantha: null
+PlushieTheHolyCrusader: null
+PlushieTwofish: null
+PlushieWachtel: null
+PlushieXeve: null
+PlushieExperiment: null
+PlushieRouny: null

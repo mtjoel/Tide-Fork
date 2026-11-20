@@ -1321,15 +1321,6 @@
   - sprite: Objects/Fun/Plushies/nukie.rsi
     state: icon
 
-# Rouny Plushie
-
-- type: foodSequenceElement
-  id: RounyPlushie
-  name: food-sequence-cotton-burger-content-plushie-rouny
-  sprites:
-  - sprite: Objects/Fun/Plushies/rouny.rsi
-    state: icon
-
 # Lamp Plushie
 
 - type: foodSequenceElement
@@ -1371,16 +1362,6 @@
   sprites:
   - sprite: Objects/Fun/Plushies/lizard.rsi
     state: plushie_lizard_inversed
-
-# Experiment Plushie
-
-- type: foodSequenceElement
-  id: ExperimentPlushie
-  scale: 0.8, 0.8
-  name: food-sequence-cotton-burger-content-plushie-experiment
-  sprites:
-  - sprite: Objects/Fun/Plushies/expi.rsi
-    state: icon
 
 #Diona Plushie
 
