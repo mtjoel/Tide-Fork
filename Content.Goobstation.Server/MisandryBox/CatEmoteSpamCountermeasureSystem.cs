@@ -45,6 +45,12 @@ public sealed class CatEmoteSpamCountermeasureSystem : EntitySystem
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
     public bool DrasticMeasures = true;
+// Added ingame VV switch for Smiting and Sound Pitch, off by default, also fuck you whoever is reading this shit
+    [ViewVariables(VVAccess.ReadWrite)]
+    public bool SmiteEnabled = false;
+
+    [ViewVariables(VVAccess.ReadWrite)]
+    public bool PitchShiftEnabled = false;
 
     [ViewVariables(VVAccess.ReadOnly)]
     private Dictionary<EntityUid, int> _meowTracker = [];
@@ -62,6 +68,9 @@ public sealed class CatEmoteSpamCountermeasureSystem : EntitySystem
 
     private void OnGetPitchShiftEvent(Entity<SpeechComponent> ent, ref EmoteSoundPitchShiftEvent ev)
     {
+        if (!PitchShiftEnabled)
+            return;
+
         var shift = GetCount(ent.Owner);
         ev.Pitch = shift * PitchModulo;
     }
@@ -146,6 +155,9 @@ public sealed class CatEmoteSpamCountermeasureSystem : EntitySystem
     /// <param name="killOverride">Optional override for the kill parameter. If null, uses DrasticMeasures</param>
     private void Smite(EntityUid uid, bool? killOverride = null)
     {
+        if (!SmiteEnabled)
+            return;
+
         _thunderstrike.Smite(uid, kill: killOverride ?? DrasticMeasures);
     }
 }

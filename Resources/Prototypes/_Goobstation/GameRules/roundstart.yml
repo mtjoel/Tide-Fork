@@ -67,7 +67,7 @@
       max: 4
       playerRatio: 12
       chaosScore: 200
-      jobBlacklist: [ Chaplain ] # GOOBSTATION
+      jobBlacklist: [ Chaplain, SalvageSpecialist ] # GOOBSTATION
       blacklist:
         components:
         - CommandStaff
@@ -147,6 +147,7 @@
     - prefRoles: [ Changeling ]
       max: 2
       playerRatio: 15
+      jobBlacklist: [ SalvageSpecialist ]
       blacklist:
         components:
         - CommandStaff
