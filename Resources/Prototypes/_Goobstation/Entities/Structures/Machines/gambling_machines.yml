@@ -379,36 +379,14 @@
     - PlushieMoth
     - PlushieHuman
     - PlushiePenguin
-    - PlushieXeve
-    - PlushieDurk
-    - PlushieMnwaar
-    - PlushieLouie
     - FoamWonderprod
     - PlushieBingle
     - PlushieBongle
     - PlushieBinglePony
     - PlushieAbductor
-    - PlushieJvne
-    - PlushieFern
-    - PlushieNigel
-    - PlushieBrizby
-    - PlushieBoggle
-    - PlushieLehmin
-    - PlushieWachtel
-    - PlushieLeguia
-    - PlushiePasha
     evilRewards:
-    - EvilPlushieXeve
-    - EvilPlushieBoggle
-    - EvilPlushieBrizby
-    - EvilPlushieNigel
-    - EvilPlushieFern
-    - EvilPlushieJvne
-    - EvilPlushieMnwaar
-    - EvilPlushieDurk
-    - EvilPlushieLouie
-    - EvilPlushieWachtel
-    - EvilPlushieLeguia
-    - EvilPlushiePasha
-    - EvilPlushieTwofish
+    - PlushieNar
+    - PlushieRatvar
+    - PlushieXeno
+    - PlushieNuke
   - type: DoAfter

@@ -41,7 +41,6 @@
     - id: RandomRockAnomalySpawner
     - id: AnomalyLiquid
     - id: AnomalyFlora
-    - id: AnomalyShadow
     - id: AnomalyTech
     - id: AnomalySanta
       weight: .4 #  Make more common in december
@@ -90,7 +89,6 @@
     children:
     - id: AnomalyTrapPyroclastic
     - id: AnomalyTrapElectricity
-    - id: AnomalyTrapShadow
     - id: AnomalyTrapIce
     - id: AnomalyTrapFlora
     - id: AnomalyTrapBluespace

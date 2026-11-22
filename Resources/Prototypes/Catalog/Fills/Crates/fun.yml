@@ -141,7 +141,6 @@
     - id: PlushieNuke
     - id: PlushieSlime
     - id: PlushieSnake
-    - id: PlushieExperiment
     - !type:GroupSelector
       children:
       - id: PlushieLizard
@@ -160,7 +159,6 @@
       - id: PlushieRainbowCarp
         weight: 0.15
     - id: PlushieVox
-    - id: PlushieRouny
     - !type:GroupSelector
       children:
       - id: PlushieSharkBlue

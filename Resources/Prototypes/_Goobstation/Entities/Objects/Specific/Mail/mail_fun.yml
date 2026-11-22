@@ -75,8 +75,6 @@
       orGroup: Plushie
     - id: ToyMouse #DeltaV - Adds MORE PLUSHIE
       orGroup: Plushie
-    - id: PlushieRouny
-      orGroup: Plushie
     - id: PlushieLizard
       orGroup: Plushie
     - id: PlushieSpaceLizard

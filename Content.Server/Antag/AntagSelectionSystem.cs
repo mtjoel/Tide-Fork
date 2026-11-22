@@ -707,6 +707,14 @@ public sealed partial class AntagSelectionSystem : GameRuleSystem<AntagSelection
         if (!_jobs.CanBeAntag(session))
             return false;
 
+        if (def.JobBlacklist is { Count: > 0 } blacklist
+            && _jobs.MindTryGetJobId(mind, out var job)
+            && job is { } jobId
+            && blacklist.Contains(jobId))
+        {
+            return false;
+        }
+
         return true;
     }
 
