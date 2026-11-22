@@ -8,22 +8,16 @@
   },
   "states": [
     {
-	  "name": "assembly"
-	},
-	{
-	  "name": "bolted_unlit"
-	},
-	{
-	  "name": "bolted_open_unlit"
-	},
+      "name": "assembly"
+    },
+    {
+      "name": "bolted_unlit"
+    },
     {
       "name": "closed"
     },
-	{
-	  "name": "closed_unlit"
-	},
     {
-      "name": "open_unlit"
+      "name": "closed_unlit"
     },
     {
       "name": "closing",
@@ -64,14 +58,14 @@
         ]
       ]
     },
-	{
-	  "name": "open",
-	  "delays": [
-	    [
-		  1
-		]
-	  ]
-	},
+    {
+      "name": "open",
+      "delays": [
+        [
+          1
+        ]
+      ]
+    },
     {
       "name": "opening",
       "delays": [
@@ -85,7 +79,7 @@
         ]
       ]
     },
-	{
+    {
       "name": "opening_unlit",
       "delays": [
         [
@@ -110,9 +104,6 @@
           0.2
         ]
       ]
-    },
-    {
-      "name": "panel_closed"
     },
     {
       "name": "panel_open",
@@ -171,6 +162,15 @@
           0.4
         ]
       ]
+    },
+    {
+      "name": "bolted_open_unlit"
+    },
+    {
+      "name": "open_unlit"
+    },
+    {
+      "name": "panel_closed"
     },
     {
       "name": "emergency_open_unlit"
