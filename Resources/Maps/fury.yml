@@ -12801,8 +12801,6 @@ entities:
       pos: -4.5,-31.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1609
   - uid: 1117
@@ -12811,8 +12809,6 @@ entities:
       pos: -0.5,-2.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1609
   - uid: 1683
@@ -12821,8 +12817,6 @@ entities:
       pos: -9.5,-6.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 1609
   - uid: 1838

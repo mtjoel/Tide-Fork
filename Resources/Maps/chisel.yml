@@ -23175,8 +23175,6 @@ entities:
       pos: 20.5,-22.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 883
   - uid: 29122
@@ -81424,6 +81422,44 @@ entities:
       parent: 2
 - proto: Dresser
   entities:
+  - uid: 8182
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -48.5,37.5
+      parent: 2
+    - type: Storage
+      storedItems:
+        7362:
+          position: 0,0
+          _rotation: South
+        7486:
+          position: 2,0
+          _rotation: South
+        7489:
+          position: 4,0
+          _rotation: South
+        7543:
+          position: 0,2
+          _rotation: South
+        7559:
+          position: 2,2
+          _rotation: South
+        7560:
+          position: 4,2
+          _rotation: South
+    - type: ContainerContainer
+      containers:
+        storagebase: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 7362
+          - 7486
+          - 7489
+          - 7543
+          - 7559
+          - 7560
   - uid: 34692
     components:
     - type: Transform
@@ -81536,44 +81572,6 @@ entities:
       parent: 2
 - proto: DresserFilled
   entities:
-  - uid: 8182
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: -48.5,37.5
-      parent: 2
-    - type: Storage
-      storedItems:
-        7362:
-          position: 0,0
-          _rotation: South
-        7486:
-          position: 2,0
-          _rotation: South
-        7489:
-          position: 4,0
-          _rotation: South
-        7543:
-          position: 0,2
-          _rotation: South
-        7559:
-          position: 2,2
-          _rotation: South
-        7560:
-          position: 4,2
-          _rotation: South
-    - type: ContainerContainer
-      containers:
-        storagebase: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 7362
-          - 7486
-          - 7489
-          - 7543
-          - 7559
-          - 7560
   - uid: 8853
     components:
     - type: Transform
@@ -109597,8 +109595,6 @@ entities:
       pos: 19.5,-22.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 883
     - type: AtmosPipeColor
@@ -109609,8 +109605,6 @@ entities:
       pos: 17.5,-13.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 29277
     - type: AtmosPipeColor
@@ -110539,8 +110533,6 @@ entities:
       pos: 19.5,-21.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 883
     - type: AtmosPipeColor
@@ -291908,8 +291900,6 @@ entities:
       pos: -19.5,22.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 41994
   - uid: 35767
@@ -291919,8 +291909,6 @@ entities:
       pos: -19.5,18.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 41994
 - proto: WeaponEnergyTurretCommandControlPanel
@@ -291943,8 +291931,6 @@ entities:
       pos: -1.5,0.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 10599
   - uid: 10569
@@ -291953,8 +291939,6 @@ entities:
       pos: -3.5,-0.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 10599
 - proto: WeaponEnergyTurretSecurityControlPanel
