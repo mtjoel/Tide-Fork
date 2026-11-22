@@ -1057,6 +1057,7 @@ FoodDonutJellySlugcat: FoodDonutJellyScurret
 GhostBarSpawner: null
 
 # 2026-01-18
+DVSmartFridge: SmartFridge
 DVSmartFridgeMedical: SmartFridgeMedical
 
 # 2026-01-10 Goobstation Change Mapped Chem to Energy Chem by default
